@@ -1,0 +1,7 @@
+Understanding Workloads in OpenShift
+==============================
+_Efficiently fingerprint workloads running in OpenShift clusters in order to make better business decision and offer customer insights into security, reliability, or maintainability issues._
+
+As part of the remote health monitoring, the workloads running on OpenShift clusters are of interest to the business, to the product roadmap, to the engineering organizations, and to the customer success organizations. This is because analyzing workloads running on customers’ OpenShift Container Platform can provide insights into security, reliability, and maintainability issues. Workloads are essentially applications/sets of software being run on a cluster, that we can identify by their image name/image_id. Clusters are a group of machines that emit operations metrics like cpu usage, memory usage, etc, that we call telemetry data. This data can be used to describe and characterize the types of workloads being run in a cluster.  Analysing these workloads can help us to answer some of the questions like, What are the most used images in the managed clusters? What are outdated images?,  which would then help Red Hat make better business decisions and also help in creating data driven roadmaps based on customer needs.
+
+The project aims to provide an insight into customers' workload data by analysing the data by doing exploratory data analysis and applying ML clustering techniques.
